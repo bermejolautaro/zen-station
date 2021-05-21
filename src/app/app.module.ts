@@ -1,16 +1,20 @@
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DescansapiesDescripcionComponent } from './descansapies-descripcion.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DescansapiesDescripcionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

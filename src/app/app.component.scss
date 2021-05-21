@@ -1,0 +1,54 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+.brand {
+  font-family: "Allura";
+  color: black;
+  font-size: 4rem;
+}
+
+.slogan {
+  font-family: "Open Sans";
+  text-align: center;
+  margin-top: -1.5em;
+  font-size: 1.2rem;
+}
+
+.hero {
+  height: 528px;
+  background-image: url(../assets/hero.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include media-breakpoint-down(md) {
+    height: 450px;
+  }
+}
+
+.about-us-title {
+  font-family: 'Allura';
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about-us {
+  font-family: 'Allura';
+  font-size: 2rem;
+}
+
+.footer {
+  height: 8rem;
+  background-color: #191919;
+}
+
+.producto-titulo {
+  font-family: 'Open Sans';
+}
+
+.producto-descripcion {
+  font-family: 'Open Sans';
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
